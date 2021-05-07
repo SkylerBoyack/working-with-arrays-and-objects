@@ -70,8 +70,12 @@ const{utah, california, texas, arizona} = states
   Push these new variables to an array and return the array. 
 */
 
+const health = {
+  carb: "",
+  fat: "",
+  protein:"",
+}
 function ingredients(health){
-const{carb, fat, protein} = health
   health.push([carb, fat , protein])
   return health
 }
@@ -93,7 +97,7 @@ const{carb, fat, protein} = health
   Find the smallest number of the three and return that number.
 */
 
-function largeNumbers({object}){
+function largeNumbers({first,second,third}){
   
 }
 
@@ -107,7 +111,7 @@ function largeNumbers({object}){
   Find the longest array and return that array.
 */
 
-function numberGroups(object){
+function numberGroups({a,b,c}){
  
 }
 
